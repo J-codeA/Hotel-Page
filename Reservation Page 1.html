@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<form action="Reservation Page 2.html">
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title> Reservation Page 1 </title>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="images/France_Branch.jpg" alt="Logo">
+    </div>
+    <div align="center">
+      <a href="Home Page.html" class="button">Home</a>
+      <a href="Registration Page.html" class="button">Register With Us</a>
+      <a href="Feedback Page.html" class="button">Give us feedback</a>
+      <a href="Local Attraction Page.html" class="button">Local Attractions near us</a>
+      <a href="Hotel Dining Page.html" class="button">Dining near us</a>
+      <a href="Reservation Page 1.html" class="buttonA">Reserve Now</a>
+    </div>
+    <div class = "container2">
+    <table width=100%>
+      <thead>
+        <tr>
+          <th rowspan="2" colspan="2" width=50%>
+            <label for="Reservation dates">Stay dates</label>
+            <br>
+            <input type="date" id="start" name="reservation start" value="Select a Date" min="2019-10-27" max="2029-01-01" required> -
+            <input type="date" id="end" name="reservation end" value="Select a Date" min="2019-10-27" max="2029-01-01" required>
+            <br>
+          </th>
+          <th rowspan="2" colspan="2" text-align="center">
+            <label for="rooms">How many rooms?</label><br>
+            <select id="rooms" required>
+              <option value="">--Please choose an option--</option>
+              <option value="One">1</option>
+              <option value="Two">2</option>
+              <option value="Three">3</option>
+              <option value="Four">4</option>
+              <option value="Five">5</option>
+              <option value="Six">6</option>
+            </select>
+          </th>
+        </tr>
+        </thead>
+        <thead>
+        <tr>
+          <th rowspan="2" colspan="2">
+            <label for="Adults">How many adults?</label><br>
+            <select id="Adults" required>
+              <option value="">--Please choose an option--</option>
+              <option value="One">1</option>
+              <option value="Two">2</option>
+              <option value="Three">3</option>
+              <option value="Four">4</option>
+              <option value="Five">5</option>
+              <option value="Six">6</option>
+            </select>
+            <br>
+          </th>
+          <th rowspan="2" colspan="2">
+            <label for="Children">How many children?</label><br>
+            <select id="Children" required>
+              <option value="">--Please choose an option--</option>
+              <option value="Zero">0</option>
+              <option value="One">1</option>
+              <option value="Two">2</option>
+              <option value="Three">3</option>
+              <option value="Four">4</option>
+              <option value="Five">5</option>
+              <option value="Six">6</option>
+            </select>
+          </th>
+        </tr>
+      </thead>
+      <br>
+    </table>
+  </div>
+  <input type="Submit" value="Submit">
+  </body>
+  <div class="footer">
+    <img src="images/Hotel_Footer.jpg" alt="Footer">
+  </div>
+</form>
+
+</html>
